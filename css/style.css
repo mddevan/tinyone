@@ -1,0 +1,307 @@
+/*font-family: 'PT Sans', sans-serif;*/
+
+body {
+    font-family: 'PT Sans', sans-serif;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*header start*/
+
+header {
+    min-height: 100px;
+    overflow: hidden;
+    background-color: #fcdb00;
+}
+
+.wrapper {
+    width: 1125px;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+
+.header_logo {
+    float: left;
+}
+
+.header_logo img {
+    margin-top: 40px;
+}
+
+.headerlg_text {
+    color: #010101;
+    float: right;
+    margin-top: 37px;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.header_nav {
+    float: right;
+}
+
+.header_nav ul {
+    float: right;
+}
+
+.header_nav ul li {
+    float: left;
+    list-style: none;
+}
+
+.header_nav ul li a {
+    text-decoration: none;
+    display: block;
+    color: #010101;
+    font-size: 22px;
+    padding: 50px 45px;
+    font-weight: bold;
+}
+
+.header_nav ul li:last-child a {
+    margin-right: -45px;
+}
+
+/*header end*/
+
+/*banner start*/
+
+.banner {
+    height: 640px;
+    background-color: #fcdb00;
+    overflow: hidden;
+}
+
+.banner_content {
+    width: 395px;
+    height: 295px;
+    float: left;
+    margin-top: 120px;
+}
+
+.banner h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.banner h2 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 34px;
+}
+
+.banner p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 34px;
+}
+
+.banner_logos {
+    margin-top: 43px;
+}
+
+.banner_logos a {
+    margin-left: 40px;
+}
+
+.banner_logos a:first-child {
+    margin-left: 0px;
+}
+
+.banner_img {
+    float: right;
+    width: 304px;
+    height: 474px;
+    margin-right: 77px;
+    margin-top: 40px;
+}
+
+/*banner end*/
+
+/*features start*/
+
+.features {
+    height: 850px;
+    background: #ffffff;
+    overflow: hidden;
+}
+
+.wrapper_2 {
+    width: 1220px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.features h1 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 118px;
+}
+
+.features h2 {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    width: 950px;
+    margin-left: 85px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.features_options {
+    height: 500px;
+    margin: 0 auto;
+}
+
+.single {
+    width: 295px;
+    height: 165px;
+    float: left;
+    margin-top: 85px;
+    padding: 0 25px;
+    margin-left: 80px;
+
+}
+
+.single:nth-child(1) {
+    margin-left: 20px;
+}
+
+.single:nth-child(4) {
+    margin-left: 20px;
+}
+
+.single:nth-child(3) {}
+
+.single:nth-child(6) {}
+
+.single_logo {
+    float: left;
+    max-height: 34px;
+    max-width: 48px;
+}
+
+.single_logo img {
+    margin-top: 7px;
+    width: 110%;
+}
+
+.single_text {
+    float: left;
+    width: 207px;
+    margin-left: 30px;
+}
+
+.single_text h3 {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.single_text p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #a7a7a7;
+    margin-top: 20px;
+}
+
+/*features end*/
+
+/*footer start*/
+
+footer {
+    height: 765px;
+    background: #010101;
+    overflow: hidden;
+}
+
+.wrapper_3 {
+    width: 1350px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+footer h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #fcdb00;
+    text-align: center;
+    margin-top: 90px;
+}
+
+footer h3 {
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+    color: #898989;
+    margin-top: 24px;
+    margin-left: 167px;
+    width: 1045px;
+}
+
+.footer_form {
+    width: 1200px;
+    margin-top: 44px;
+}
+
+.form_box {
+    float: left;
+    margin-left: 190px;
+
+}
+
+.mail_box {
+    float: left;
+    padding: 18px 318px;
+    border: none;
+    border-radius: 5px;
+}
+
+.form_button {}
+
+.form_button button {
+    padding: 18px 40px;
+    font-weight: bold;
+    background: #fcdb00;
+    border: none;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.footer_links {
+    margin-top: 75px;
+    text-align: center;
+}
+
+.footer_links a {
+    margin-left: 35px;
+}
+
+.footer_bottom {
+    color: #ffffff;
+    overflow: hidden;
+    width: 1100px;
+    height: 200px;
+    font-size: 16px;
+    margin: 120px;
+}
+
+.bottom_info {
+    float: left;
+}
+
+.bottom_links {
+    float: left;
+}
+
+.bt_links {
+    float: left;
+    margin-left: 155px;
+}
+
+/*footer end*/
